@@ -56,8 +56,6 @@ public class ListTest2 {
 				max = lc.getPower();
 				idx = i;
 			}
-			
-			
 		}
 		
 		System.out.println("가장 강한 챔프 = " +lollist.get(idx));
