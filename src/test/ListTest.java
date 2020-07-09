@@ -21,7 +21,7 @@ class Student{
 	}
 	@Override
 	public String toString() {
-		return "Student [이름=" + name +"/n"+ "학년=" + grade + "]";
+		return "Student [이름=" + name + "학년=" + grade + "]";
 	}
 	
 }
