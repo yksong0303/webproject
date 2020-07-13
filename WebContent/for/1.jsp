@@ -1,5 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+<%@ include file="/for/common.jsp" %>
+
+<%
+//<%@<-- Directive(설명서)
+//<% <-- Scriptlet(실행부)		
+//<%= <-- expression(표현식)		
+//<%! <-- Declaration(선언부)		
+
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +16,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-1.jsp<br>
-<!--  나는 html 주석입니다. -->
-<%
-// 나는 자바 한줄 주석입니다.
-/* 
-나는 자바 여러줄
-주석입니다
-*/
-%>
+1.jsp
+<%= str %>
 </body>
 </html>
